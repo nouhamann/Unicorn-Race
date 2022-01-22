@@ -1,0 +1,36 @@
+.unicorn{
+    background-image: url(unicorn.png);
+    height: 7vh;
+    width: 7vh;
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+
+}
+body{
+    background-image: url(backgroundunicorn.jpg);
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+#start{
+    position: absolute;
+    bottom: 10vh;
+}
+#reset{
+    position: absolute;
+    bottom: 10vh;
+    left: 20vh;
+}
+p{
+    position: absolute;
+    bottom: 1vh;
+    font-size: 8vh;
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+button{
+    border-radius: 6px;
+    color: white;
+    background-color: black;
+    padding: 1vh;
+}
